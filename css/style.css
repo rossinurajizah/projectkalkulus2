@@ -1,0 +1,19 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #3498db, #8e44ad); 
+    color: #ffffff; 
+}
+
+.navbar {
+    background-color: rgba(52, 152, 219, 0.9) !important; 
+}
+
+
+.nav-link {
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 50px;
+}
+

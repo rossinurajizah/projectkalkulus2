@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VECALCULATE</title>
+    <link rel="stylesheet" href="../css/new.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <a class="navbar-brand" href="home.html">Vecalculate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vektor.html">Vektor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="matriks.html">Matriks</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="profile-section">
+        <div class="buttons">
+            <button onclick="showProfile('profile1')">Desti</button>
+            <button onclick="showProfile('profile2')">Rossi</button>
+            <button onclick="showProfile('profile3')">Matin</button>
+            <button onclick="showProfile('profile4')">Zaky</button>
+            <button onclick="showProfile('profile5')">Dikri</button>
+        </div>
+        <div class="profile-image">
+            <img id="profile-image" src="../gambar/desti.jpeg" alt="Profile Image">
+        </div>
+        <div class="profile-info">
+            <h2 id="profile-name">Desti Karmini N.</h2>
+            <h3 id="profile-role">237006001</h3>
+            <p id="profile-bio">Laporan dan Analisis</p>
+        </div>
+    </section>
+    <script src="../js/profile.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
